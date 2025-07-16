@@ -64,7 +64,7 @@ function App() {
             loop 
             muted 
             playsInline
-            src="/videos/metallic-liquid.mp4"
+            src={`${process.env.PUBLIC_URL}/videos/metallic-liquid.mp4`}
           >
             Your browser does not support the video tag.
           </video>
@@ -78,7 +78,7 @@ function App() {
           <div className="about-container">
             <div className="about-profile-space">
               <img 
-                src="/videos/ProfilePic copy.jpeg" 
+                src={`${process.env.PUBLIC_URL}/videos/ProfilePic copy.jpeg`} 
                 alt="Manish Nadendla" 
                 className="profile-image"
               />
@@ -339,7 +339,7 @@ function App() {
           <div className="projects-container">
             <div className="project-item">
               <a href="https://github.com/CS-3354-Srimathi-Group-5/FlightTracker-" target="_blank" rel="noopener noreferrer" className="project-image-container">
-                <img src="/images/flight-tracker-new-screenshot.png" alt="Flight Tracker Screenshot" className="project-image" />
+                <img src={`${process.env.PUBLIC_URL}/images/flight-tracker-new-screenshot.png`} alt="Flight Tracker Screenshot" className="project-image" />
                 <div className="project-image-placeholder">
                 </div>
               </a>
@@ -397,7 +397,7 @@ function App() {
           <div className="certifications-grid">
             <div className="certification-item">
               <div className="certification-symbol" onClick={() => window.open('#', '_blank')}>
-                <img src="/images/eJPT-1.webp" alt="Junior Penetration Tester" className="cert-logo" />
+                <img src={`${process.env.PUBLIC_URL}/images/eJPT-1.webp`} alt="Junior Penetration Tester" className="cert-logo" />
               </div>
               <h3>Junior Penetration Tester</h3>
               <p>INE Security</p>
@@ -405,7 +405,7 @@ function App() {
             </div>
             <div className="certification-item">
               <div className="certification-symbol google-cert" onClick={() => window.open('#', '_blank')}>
-                <img src="/images/Google_&quot;G&quot;_logo.svg.png" alt="Google Cybersecurity" className="cert-logo" />
+                <img src={`${process.env.PUBLIC_URL}/images/Google_"G"_logo.svg.png`} alt="Google Cybersecurity" className="cert-logo" />
               </div>
               <h3>Google Cybersecurity</h3>
               <p>Google</p>
@@ -413,7 +413,7 @@ function App() {
             </div>
             <div className="certification-item">
               <div className="certification-symbol" onClick={() => window.open('#', '_blank')}>
-                <img src="/images/Amazon_Web_Services_Logo.svg.png" alt="AWS Cloud Technology Consultant" className="cert-logo" />
+                <img src={`${process.env.PUBLIC_URL}/images/Amazon_Web_Services_Logo.svg.png`} alt="AWS Cloud Technology Consultant" className="cert-logo" />
               </div>
               <h3>AWS Cloud Technology Consultant</h3>
               <p>Amazon Web Services</p>
@@ -421,7 +421,7 @@ function App() {
             </div>
             <div className="certification-item">
               <div className="certification-symbol" onClick={() => window.open('#', '_blank')}>
-                <img src="/images/mastermindassurance_logo.jpeg" alt="ISO/IEC 27001:2022 Lead Auditor" className="cert-logo" />
+                <img src={`${process.env.PUBLIC_URL}/images/mastermindassurance_logo.jpeg`} alt="ISO/IEC 27001:2022 Lead Auditor" className="cert-logo" />
               </div>
               <h3>ISO/IEC 27001:2022 Lead Auditor</h3>
               <p>MasterMind</p>
@@ -429,7 +429,7 @@ function App() {
             </div>
             <div className="certification-item">
               <div className="certification-symbol" onClick={() => window.open('#', '_blank')}>
-                <img src="/images/1*PCBXs9F7qjom3aUtzeJxOA.png" alt="Cloud Associate" className="cert-logo" />
+                <img src={`${process.env.PUBLIC_URL}/images/1*PCBXs9F7qjom3aUtzeJxOA.png`} alt="Cloud Associate" className="cert-logo" />
               </div>
               <h3>Cloud Associate</h3>
               <p>INE</p>
